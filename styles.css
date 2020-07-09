@@ -92,7 +92,7 @@ span:nth-child(12) {
   animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-span:nth-child(13) {
+/* span:nth-child(13) {
   animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
@@ -114,7 +114,7 @@ span:nth-child(17) {
 
 span:nth-child(18) {
   animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
+} */
 
 @keyframes fade-in {
   100% {
@@ -181,7 +181,7 @@ p {
 }
 .pimg1{
   background-image: url('img/wwd2.jpg');
-  min-height: 500px;
+  min-height: 450px;
 }
 
 
@@ -339,14 +339,14 @@ a {
   margin: auto;
   font-weight: bold;
   font-size: 45px;
-  border: 1px solid;
+  /* border: 1px solid; */
   margin-top: 15px;
   color: #282e34;
 
 }
 
 #footer{
-  padding: 3% 1%;
+  padding: 3% 2%;
   background-color: #141414;
 }
 .headend{
@@ -381,3 +381,6 @@ footer p{
    margin-bottom: 8px;
    padding-left: 2px;
 }
+/* .iconend{
+  padding-bottom: 2px;
+} */
