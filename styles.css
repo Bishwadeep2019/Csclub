@@ -177,12 +177,12 @@ p {
 }
 
 .pimg2 {
-  background-image: url('../img/image2.jpg');
+  background-image: url('img/header.jpg');
   min-height: 400px;
 }
 
 .pimg3 {
-  background-image: url('../img/wwd.jpg');
+  background-image: url('img/wwd.jpg');
   min-height: 400px;
 }
 
