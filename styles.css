@@ -153,7 +153,7 @@ p {
   margin: 0;
 }
 
-.pimg2, .pimg3 {
+ .pimg3 {
   position: relative;
   /* opacity:0.9; */
   background-position: center;
@@ -167,19 +167,23 @@ p {
 }
 
 .pimg1 {
-  background-image: url('img/wwd2.jpg');
-  min-height: 500px;
+
   position: relative;
+  /* opacity:0.9; */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  /*
+    fixed = parallax
+    scroll = normal
+  */
   background-attachment: fixed;
 }
+.pimg1{
+  background-image: url('img/wwd2.jpg');
+  min-height: 500px;
+}
 
-/* .pimg2 {
-  background-image: url('img/header.jpg');
-  min-height: 400px;
-} */
 
 .pimg3 {
   background-image: url('img/wwd.jpg');
