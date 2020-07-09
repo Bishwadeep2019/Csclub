@@ -167,7 +167,7 @@ p {
 }
 
 .pimg1 {
-  background-image: url('../img/header.jpg');
+  background-image: url('img/header.jpg');
   min-height: 500px;
   position: relative;
   background-position: center;
